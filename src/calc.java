@@ -5,9 +5,9 @@ public class calc {
 	public static void main(String[] args) {
 
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please enter two whole numbers");
-		int num1 = scanner.nextInt();
-		int num2 = scanner.nextInt();
+		System.out.println("Please enter two numbers, They can be floats or doubles.");
+		double num1 = scanner.nextDouble();
+		double num2 = scanner.nextDouble();
 		
 		Scanner question1 = new Scanner(System.in);
 		System.out.println("Pick pick from the options: \n Add \n Subtract \n Multiply \n Divide");
