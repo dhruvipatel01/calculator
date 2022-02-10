@@ -26,8 +26,12 @@ public class calc {
 	
 		}else if (answer1.equalsIgnoreCase("Divide"))
 		{
-			
-			System.out.println(num1 / num2);
+			if (num2 == 0) {
+				System.out.println("Error: Divide by Zero");
+			}
+			else {
+				System.out.println(num1 / num2);
+			}
 		
 		} else {
 			
